@@ -28,7 +28,7 @@ This project is based on the [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Fa
   
 - [x] The Critic model
   To train the critic model, we use the supervised fine-tuning (SFT) method. We use the 'Qwen1.5-7b-Chat' as the base model and fine-tune it on the dataset. The critic model is used to score the generated ideas.
-  ![critic](pics/critic.png)
+  ![critic](pics/Critic.png)
   The loss function is defined as:
 
   $$\mathcal{L}(\theta) =-\frac{1}{N} \sum_{i=1}^{N} w\left(y_{i}\right) \log P_{\theta}\left(y_{i} \mid x_{i}\right) $$
