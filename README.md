@@ -102,3 +102,7 @@ bash examples/train/qwen1.5_lora_ppo.yaml
 ## Chat with Critic and King
 
 After training, you can use `main.py` to call the functions for dialogue and cross-conference validation with the critic and king models. The corresponding functions are `critic()`, `king()`, and `Eval()`.
+
+## Contact & Let me know your thought
+
+Please contact by my email: [frinkleko@gmail.com](mailto:frinkleko@gmail.com). To see more about my works, you can also visit my [homepage](https://xinjie-shen.com/).
