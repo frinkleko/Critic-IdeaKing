@@ -33,7 +33,7 @@ This project is based on the [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Fa
 
   $$\mathcal{L}(\theta) =-\frac{1}{N} \sum_{i=1}^{N} w\left(y_{i}\right) \log P_{\theta}\left(y_{i} \mid x_{i}\right) $$
 
-  And we define the results Metric as:
+  And here are help-prompt to trirgger the Critic model for idea evaluating, two modes are defined. One is giving format guide, the other is providing few shot examples. Paper context are included after the help-prompt.
   ![metric](pics/result_metric.png)
 
 - [x] The King model
