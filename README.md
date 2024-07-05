@@ -28,12 +28,12 @@ This project is based on the [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Fa
   
 - [x] The Critic model
   To train the critic model, we use the supervised fine-tuning (SFT) method. We use the 'Qwen1.5-7b-Chat' as the base model and fine-tune it on the dataset. The critic model is used to score the generated ideas.
-  ![critic](pics/critic.png)
+  ![critic](pics/Critic.png)
   The loss function is defined as:
 
   $$\mathcal{L}(\theta) =-\frac{1}{N} \sum_{i=1}^{N} w\left(y_{i}\right) \log P_{\theta}\left(y_{i} \mid x_{i}\right) $$
 
-  And we define the results Metric as:
+  And here are help-prompt to trirgger the Critic model for idea evaluating, two modes are defined. One is giving format guide, the other is providing few shot examples. Paper context are included after the help-prompt.
   ![metric](pics/result_metric.png)
 
 - [x] The King model
@@ -119,3 +119,7 @@ bash examples/train/qwen1.5_lora_ppo.yaml
 ## Chat with Critic and King
 
 After training, you can use `main.py` to call the functions for dialogue and cross-conference validation with the critic and king models. The corresponding functions are `critic()`, `king()`, and `Eval()`.
+
+## Contact & Let me know your thought
+
+Please contact by my email: [frinkleko@gmail.com](mailto:frinkleko@gmail.com). To see more about my works, you can also visit my [homepage](https://xinjie-shen.com/).
