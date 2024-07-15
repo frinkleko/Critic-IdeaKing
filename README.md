@@ -123,3 +123,15 @@ After training, you can use `main.py` to call the functions for dialogue and cro
 ## Contact & Let me know your thought
 
 Please contact by my email: [frinkleko@gmail.com](mailto:frinkleko@gmail.com). To see more about my works, you can also visit my [homepage](https://xinjie-shen.com/).
+
+## Cite
+```
+@misc{IdeaKing,
+  author = {Xinjie Shen},
+  title = {IdeaKing},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/frinkleko/Critic-IdeaKing}},
+}
+```
